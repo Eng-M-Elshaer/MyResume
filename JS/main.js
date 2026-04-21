@@ -315,15 +315,11 @@ $(document).ready(function () {
     });
    
     
-    // project section pages 
+    // project section pages
     $(".two").hide();
-    var mixer = mixitup('#mixit');
-    var mixer = mixitup(containerEl);
-
-     
-    var mixer = mixitup('#mixit', {
+    mixitup('#mixit', {
         selectors: {
-            target: '.blog-item'
+            target: '.mix'
         },
         animation: {
             duration: 300
